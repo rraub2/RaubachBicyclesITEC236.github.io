@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- index page Raubach's Bicycles -->
+<!-- Programmer Reed Raubach -->
+<html lang="en-US">
+    <head>
+
+        <!-- Metadata --> 
+        <meta charset="utf-8">
+        <meta name="description" content="Local bike shop offering sales and service">
+        <title>Raubach's Bicycles</title>
+        <link rel="shortcut icon" type="image/png" href="Favicon.png">
+        <link rel="Stylesheet" href="slicknav.min.css"/>
+        <link rel="Stylesheet" href="style(new).css"/>
+       
+
+        <audio autoplay loop>
+            <source src="1-bike-on-a-nautral-road-74370.mp3" type="audio/mp3">
+        </audio>
+        
+  
+
+       
+        
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <script src="jquery.slicknav.min.js"></script>
+        <script>
+            $(function(){
+                $('#nav_menu').slicknav();
+            });
+        </script>
+
+       
+    </head>
+    <body>
+        <h1>Raubach's Bicycles</h1>
+
+        <!--Navigation Menu-->
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html.htm">Home</a></li>
+                <li><a href="sales.html.htm">Sales</a></li>
+                <li><a href="services.html.htm">Services</a></li>
+                <li><a href="rentals.html.htm">Rentals</a></li>
+                <li><a href="contact.html.htm">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h2>Bicycles We Offer</h2>
+
+        <!--Unordered list class index -->
+        <ul class="unordered-list-index">
+            <li>Road Bikes</li>
+            <li>Mountain Bikes</li>
+            <li>Touring Bikes</li>
+            <li>BMX Bikes</li>
+            <li>Electric Bikes</li>
+        </ul>
+       
+        <!--Bicycle Photo element-->
+        <figure>
+            <img src="Road_Bike.jpg" onmouseover="this.src='Road-Bike.jpg'" onmouseout="this.src='Road_Bike.jpg'"  id="bicycle-pg1" alt="Road Bike Photo">
+            <figcaption>Best Selling Road Bike</figcaption>
+            
+
+         
+        </figure>
+        <h2>About Us</h2>
+
+        <p>We are a family owned and operated bicycle shop that offers sales and service located in Thompsonville Illinois.<br>
+         To learn more about SIU visit <a href="https://siu.edu/">SIU's official website</a></p>
+
+         <!--Fictitious Contact information-->
+        <h2>Contact Us</h2>
+
+        <address>618-123-1234<br>
+        <a href="emailto:info@RaubachBicycles.com">info@RaubachBicycles.com</a>
+        </address>
+
+        <!--Fictitious Address-->
+        <h2>Visit Us</h2>
+
+        <p>1 E 161st Street, Carbondale, IL 62902</p>
+        <p>Hours of Operation</p>
+
+         <!--Unordered list class index -->
+        <ul class="unordered-list-index">
+            <li>Monday- 8AM - 5PM</li>
+            <li>Tuesday- 8AM - 5PM</li>
+            <li>Wednesday- 8AM - 5PM</li>
+            <li>Thursday- 8AM - 5PM</li>
+            <li>Friday- 8AM - 5PM</li>
+            <li>Saturday- 8AM - 12PM</li>
+            <li>Sunday- CLOSED</li>
+        </ul>
+
+       
+
+    </body>
+    </html>
